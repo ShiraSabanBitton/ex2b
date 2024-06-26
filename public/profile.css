@@ -1,0 +1,207 @@
+/* 
+Shira Saban Bitton - 316511658
+Fida Rabah - 204647911
+25/6/24 
+*/
+
+/* Import fonts */
+@import url("http://fonts.cdnfonts.com/css/rammetto-one");
+@import url("https://fonts.googleapis.com/css?family=Bree Serif");
+
+/* General body styling */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, serif;
+  font-family: "Bree Serif";
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* Header and text styling */
+h1,
+h2 {
+  text-align: center;
+  font-size: 3vw;
+  font-family: "Rammetto One", cursive;
+  padding-top: 10px;
+  text-shadow: 3px 3px 1px #999999;
+}
+h2 {
+  font-size: 2.5vw;
+}
+
+/* Banner styling */
+header {
+  width: 100%;
+  height: 200px;
+  background-image: url("/default-banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.center-flex {
+  display: flex;
+  flex-direction: column;
+  width: 62%;
+}
+
+#banner {
+  width: 100%
+}
+
+/* Profile image styling */
+.endImg {
+  margin-right: -47px;
+  z-index: 999;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 20px;
+  margin-top: -100px;
+}
+.main-title {
+  margin-top: -105px !important;
+}
+
+/* Container styling */
+.container {
+  max-width: 28rem;
+  padding: 20px;
+  white-space: pre-line;
+}
+
+/* Centered content styling */
+.centered {
+  text-align: center;
+}
+.centered img {
+  max-width: 100%;
+  height: auto;
+}
+.centered-text {
+  position: absolute !important;
+  margin-left: 43% !important;
+}
+.center-content {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.center-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* Bottom area styling */
+.bottom-area {
+  background-image: url("/clouds.webp");
+  background-size: cover;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom-area img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+.flex-container-Endorsement {
+  display: -moz-box;
+  background-color: white;
+  justify-content: space-between;
+  border-left: 10px solid #cccaca;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 10px 10px 10px 10px;
+  color: black;
+}
+.title-Endorsement {
+  font-weight: bold;
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+}
+
+/* Grid container styling */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: left;
+}
+
+/* Additional images styling */
+.additional-images {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.additional-images img {
+  margin: 0 10px;
+  width: 150px;
+  height: auto;
+}
+
+/* Other profiles styling */
+.other-profiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between images as needed */
+}
+.other-profiles img {
+  width: 100px; /* Adjust the width of the images as needed */
+  height: auto;
+}
+.squad {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 5vw;
+  }
+
+  .center-flex {
+    width: 100%;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    margin-top: -50px;
+  }
+
+  .center-content,
+  .bottom-area {
+    flex-direction: column;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .other-profiles {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

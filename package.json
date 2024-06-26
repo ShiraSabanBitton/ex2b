@@ -1,0 +1,15 @@
+{
+  "name": "ex5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "profile.js",
+  "scripts": {
+    "start": "node profile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shira Saban Bitton & Fida Rabah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
